@@ -1,0 +1,248 @@
+#tela-login {
+  background-color: #006838;
+  height: 100%;
+  padding-bottom: 7em;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.superior {
+  position: relative;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.icon{
+  width: 10em;
+}
+
+.conteudo-login{
+  margin-top: 2em;
+}
+
+h2{
+  margin-left: 1.5em;
+  color: #8DC63F;
+  font-size: 1.5em;
+}
+
+
+.formulario{
+  width: 32em;
+  height: 2.5em;
+  margin-top: -1em;
+}
+
+ input{
+  border-radius: 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  border: none;
+}
+
+:placeholder-shown{
+  background-color: #dcdcdc;
+}
+
+
+.botao-entrar{
+  margin-top: 2em;
+  width: 15em;
+  height: 5em;
+  border-radius: 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  background-color: #8DC63F;
+  border: none;
+  
+}
+
+.texto-botao{
+  color: #603913;
+  font-size: 1.5em;
+}
+
+.rodape{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color:  #8DC63F;
+  
+}
+
+
+#cadastro-cliente{
+  background-color: #ffffff;
+  height: 100%;
+  padding-bottom: 6em;
+}
+
+.conteudo-cliente{
+  margin-top: 2em;
+}
+
+h1{
+  font-size: 2.0em;
+  text-align: center;
+  color:  #8DC63F;
+
+}
+
+.h2-alt{
+  color: #603913;
+}
+
+.seta{
+  margin-top: 1.3em;
+  margin-left: 0.5em;
+  width: 2.5em;
+  float: left;
+}
+
+.topo-cadastros{
+  background-color: #006838;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#cadastro-entregador{
+  background-color: #ffffff;
+  height: 100%;
+  padding-bottom: 6em;
+}
+
+#tela-compras{
+  height: 100%;
+  padding-bottom: 6em;
+}
+
+#tela-compras h1{
+  color: #603913;
+}
+
+.topo-compras{
+  background-color: #ffffff;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.icone-compras{
+  width: 6em;
+  float: left;
+}
+
+.botao-fechar{
+  margin-top: 2em;
+  width: 14em;
+  height: 3em;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  background-color: #006838;
+  color: #8DC63F;
+  float: left;
+  margin-left: 1em;
+  font-size: 1.5em;
+  border: none;
+  
+}
+
+.carrinho{
+  width: 5em;
+  margin-top: 2em;
+  margin-left: 24em;
+  
+}
+
+
+.conteudo-compras{
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 0.3em solid #8DC63F;
+  border-radius: 2em;
+  padding: 5px;
+  margin: 1em 1em 1em 1em;
+}
+
+#tela-compras h2{
+  color: #603913;
+}
+
+.botaotopo {
+  display:scroll;
+  position:fixed !important;
+  float: right;
+  display: inline;
+  bottom:6px;
+  right:6px;
+  z-index: 9;
+  width: 5em;
+  height: 5em;
+  background-color: #006838;
+  border-radius: 50%;
+  color: #8DC63F;
+  border: none;
+}
+
+.text-botao-topo{
+  font-size: 3em;
+}
+
+.topo-produtos{
+  background-color: #006838;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.conteudo-produtos{
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 0.3em solid #8DC63F;
+  border-radius: 2em;
+  padding: 5px;
+  margin: 1em 1em 1em 1em;
+}
+
+.conteudo-produtos h2{
+  color: #603913;
+  float: left;
+}
+
+.conteudo-produtos h3{
+  margin-left: 15em;
+  color: #a52921;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+
+#tela-produtos{
+  height: 100%;
+  padding-bottom: 6em;
+}
+
+
+#tela-produtos form{
+  margin-top: 1.5em;
+}
+
+#tela-produtos input{
+  background-image: url(../img/lupa.svg) ;
+  background-repeat: no-repeat;
+  background-size: 1em;
+  background-position: right ;
+  background-origin: content-box;
+}
+
